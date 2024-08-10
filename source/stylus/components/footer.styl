@@ -1,0 +1,57 @@
+.footer
+  background: linear-gradient(180.00deg, rgb(24, 24, 24),rgb(48, 48, 48) 100%)
+
+  &__container
+    display: flex
+    align-items: center
+    padding 14px 0
+    flex-direction: column
+    gap: 8px
+    +above($breakpoints.sm)
+      gap: 0
+      flex-direction: row
+      justify-content space-between
+      padding 32px 0
+
+  &__brand
+    display: flex
+    flex-direction: row
+    align-items: center
+    gap: 10px
+    +above($breakpoints.sm)
+      gap: 29px
+
+  &__logo
+    width 68px
+    height: auto
+
+  &__brand-name
+    display: flex
+    flex-direction: column
+    gap: 7px
+
+  &__privacy
+    color: #939393
+    text-decoration: underline
+    cursor pointer
+
+  &__connection
+    width 173px
+    height: 32px
+    padding 7px 10px 7px 10px
+    display: flex
+    flex-direction: row
+    align-items: center
+    gap: 8px
+    border-radius: 30px
+    background-color #303030
+    +above($breakpoints.sm)
+      height: 56px
+      width 268px
+
+  &__connection-icon
+    width 22px
+    height: 21px
+    +above($breakpoints.sm)
+      width 44px
+      height: 42px

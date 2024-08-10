@@ -1,0 +1,49 @@
+section.invest-section
+  .wrapper
+    .invest-section__container
+      .invest-section__title.font-w-ps-regular.font-s-60.text-up.text-center
+        | Выберите 
+        br.no-br
+        span.invest-section__sub-title Подходящий формат
+      .invest-section__line
+      .swiper-invest
+        .invest-section__cards.swiper-wrapper
+          .invest-section__card-1.invest-section__card.swiper-slide
+            .invest-section__card-title.font-w-ps-regular.font-s-40 Фуд-корт
+            .invest-section__card-sub-title
+              .invest-section__card-text
+                .invest-section__card-round
+                .font-s-16 Площадь: от 50 м2
+              .invest-section__card-text.invest-section__pb
+                .invest-section__card-round
+                .font-s-16 Без посадочных мест
+            form.invest-section__form(data-feedback-form)
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn(type="submit") ПОЛУЧИТЬ
+            .font-s-12.text-center
+              | Получите описание формата, узнайте 
+              br
+              | величину паушального взноса и размер
+              br
+              | инвестиций
+          .invest-section__card-2.invest-section__card.swiper-slide
+            .invest-section__card-title.font-w-ps-regular.font-s-40 Кафе- <br> бургерная
+            .invest-section__card-sub-title
+              .invest-section__card-text
+                .invest-section__card-round
+                .font-s-16 Площадь: от 50 м2
+              .invest-section__card-text
+                .invest-section__card-round
+                .font-s-16 С местами для посадки
+            form.invest-section__form(data-feedback-form)
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn(type="submit") ПОЛУЧИТЬ
+            .font-s-12.text-center
+              | Получите описание формата, узнайте 
+              br
+              | величину паушального взноса и размер
+              br
+              | инвестиций
+        .invest-pagination.swiper-progress-invest

@@ -1,0 +1,28 @@
+section.city-section
+  .wrapper
+    .city-section__box
+      .city-section__container
+        h2.city-section__title.font-w-ps-regular.font-s-50.text-up.text-center
+          | Откройте 
+          br.no-br
+          | Бургерную 
+          span.color-red «МИТБЕРИ» 
+          br.no-br
+          | в своем городе
+        img.city-section__line(src="images/city-section-line.svg" loading="lazy" width="471" height="2" alt="icon")
+        .city-section__sub-title.font-s-32.text-center
+          | и получайте от 1 125 000 рублей 
+          br.no-br
+          | чистой прибыли ежемесячно 
+        .city-section__container-bottom
+      .city-section__bottom
+        .city-section__bottom-text
+          .font-w-ps-regular.font-s-32.text-center.text-up
+            | Проверьте, 
+            span.color-beige свободен ли ваш город 
+            br.no-br
+            | для работы по франшизе
+        form.city-section__form(data-feedback-form)
+          input.input.input--secondary.city-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--secondary.city-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn.city-item(type="submit") ПРОВЕРИТЬ ГОРОД

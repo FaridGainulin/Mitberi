@@ -1,0 +1,78 @@
+.presentation-section
+  background-image: url('../images/presentation-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position-x: center
+  background-position-y: 0
+  background-size: contain
+  background-color #fff
+  +above($breakpoints.sm)
+    background-position-y: 35px
+  +above($breakpoints.md)
+    background-position-y: 45px
+  +above($breakpoints.xxl)
+    background-position-y: 65px
+
+  &__wrapper
+    max-width: 320px
+    margin: 0 auto
+    padding: 0 6px
+    width 100%
+    +above($breakpoints.sm)
+      max-width: 750px
+      padding: 0 12px
+    +above($breakpoints.md)
+      max-width: 996px
+      padding: 0 15px
+    +above($breakpoints.xxl)
+      padding: 0 20px
+      max-width: 1220px
+    +above($breakpoints.xxxl)
+      padding: 0 20px
+      max-width: 1620px
+
+  &__container
+    position relative
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      padding 60px 0 60px 0
+    +above($breakpoints.md)
+      padding 120px 0 100px 0
+    +above($breakpoints.xxl)
+      padding 207px 0 141px 0
+
+  &__title
+    text-align: center
+    color: #121111
+
+  &__arrow
+    margin 0 auto 20px
+    +above($breakpoints.sm)
+      margin 0 auto 30px
+    +above($breakpoints.md)
+      margin 0 auto 35px
+    +above($breakpoints.xxl)
+      margin 0 auto 46px
+
+  &__card
+    width 280px !important
+    +above($breakpoints.sm)
+      width 357px !important
+    +above($breakpoints.md)
+      width 314px !important
+    +above($breakpoints.xxl)
+      width 386.6px !important
+    +above($breakpoints.xxxl)
+      width 520px !important
+
+  &__img
+    width 280px
+    height: auto
+    border-radius: 16px
+    +above($breakpoints.sm)
+      width 357px
+    +above($breakpoints.md)
+      width 314px
+    +above($breakpoints.xxl)
+      width 386.6px
+    +above($breakpoints.xxxl)
+      width 520px

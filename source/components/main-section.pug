@@ -1,0 +1,33 @@
+section.main-section
+  .main-section__header-wrapper
+    .wrapper
+      include ../components/header.pug
+  .wrapper
+    .main-section__container
+      h1.main-section__title.font-w-ps-regular.font-s-60.text-up
+        | Постройте 
+        br.no-br
+        | прибыльный бизнес
+      .main-section__sub-title.font-w-ps-regular.font-s-35.text-up
+        | на продаже 
+        span.color-beige 100% 
+        br.no-br
+        span.color-beige handmade-бургеров 
+        br.no-br
+        | с франшизой «МИТБЕРИ»
+      img.main-section__line(src="images/main-section-line.svg" loading="lazy" width="587" height="4" alt="icon")
+      .main-section__bottom
+        form.main-section__form(data-feedback-form)
+          input.input.main-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.main-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn.main-item(type="submit") ПОЛУЧИТЬ
+        .main-section__bottom-items
+          img.main-section__icon(src="images/main-section-icon.png" loading="lazy" width="120" height="120" alt="icon")
+          .main-section__bottom-title.font-w-ps-regular.font-s-26 Узнайте,
+          .font-w-bold.font-s-18
+            | как получать 1 125 000 ₽ 
+            br.no-br
+            | чистой прибыли 
+            br.no-br
+            | ежемесячно в своем городе
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1082" height="1356" alt="image")
