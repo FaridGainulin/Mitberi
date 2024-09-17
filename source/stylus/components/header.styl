@@ -8,35 +8,50 @@
 
   &__title
     display: flex
-    flex-direction: column
     align-items: center
-    gap: 5px
     +above($breakpoints.sm)
-      flex-direction: row
-      gap: 23px
+      gap: 8px
 
   &__logo
     width 70px
     height: auto
     +above($breakpoints.sm)
+      width 85px
+    +above($breakpoints.md)
+      width 90px
+    +above($breakpoints.xxl)
       width 95px
 
   &__brand-name
+    width 75px
+    height: 10px
     +above($breakpoints.sm)
-      display: none
+      width 125px
+      height: 17px
+    +above($breakpoints.md)
+      width 140px
+      height: 19px
+    +above($breakpoints.xxl)
+      width 155px
+      height: 21px
 
   &__brand
     display: none
     +above($breakpoints.sm)
-      display: flex
-      flex-direction: column
-      justify-content center
-      gap 7px
+      display: block
       border-left: 1px solid #464646
-      padding 5px 0 2px 22px
+      padding-left: 8px
+    +above($breakpoints.md)
+      padding-left: 12px
+    +above($breakpoints.xxl)
+      padding-left: 17px
+      margin-left 9px
 
   &__connection
-    width 100%
-    max-width: 145px
+    width 138px !important
     +above($breakpoints.sm)
-      max-width: 235px
+      width 180px !important
+    +above($breakpoints.md)
+      width 220px !important
+    +above($breakpoints.xxl)
+      width 235px !important

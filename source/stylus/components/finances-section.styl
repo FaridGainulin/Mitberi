@@ -43,6 +43,7 @@
       padding 0 0 81px 0
 
   &__box
+    position relative
     display: flex
     flex-direction: column-reverse
     gap: 10px
@@ -54,15 +55,35 @@
     +above($breakpoints.xxl)
       gap: 34px
 
+  &__img-logo
+    position: absolute
+    width: 100px;
+    height: auto;
+    top: 159px;
+    left: -16px;
+    +above($breakpoints.sm)
+      width 157px
+      top: -20px
+      left: -38px
+    +above($breakpoints.md)
+      width 200px
+      top: -25px
+      left: -48px
+    +above($breakpoints.xxl)
+      width 257px
+      top: -30px
+      left: -58px
+
   &__img
     width 300px
     height: auto
-    border-radius: 16px
+    border-radius: 20px
     margin 0 auto
     +above($breakpoints.sm)
       width 300px
       margin 0
     +above($breakpoints.md)
+      border-radius: 32px
       width 420px
     +above($breakpoints.xxl)
       width 512px

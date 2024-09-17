@@ -79,12 +79,12 @@
       flex-direction: row
       flex-wrap: wrap
       justify-content center
+      align-items: center
       gap: 10px
     +above($breakpoints.md)
       gap: 20px
     +above($breakpoints.xxl)
       justify-content start
-      align-items: center
 
   &__card-1
     width 260px !important
@@ -95,7 +95,7 @@
     +above($breakpoints.md)
       width 300px !important
     +above($breakpoints.xxl)
-      width 461px !important
+      width 466px !important
   &__card-2
     width 260px !important
     height: auto
@@ -105,7 +105,7 @@
     +above($breakpoints.md)
       width 307px !important
     +above($breakpoints.xxl)
-      width 466px !important
+      width 461px !important
   &__card-3
     width 212px !important
     height: auto
@@ -172,8 +172,7 @@
   &__card-6
     width 190px !important
     height: auto
-    border-radius: 25px
-    margin 0 auto
+    margin 30px auto 0
     +above($breakpoints.sm)
       margin 0
       width 200px !important
@@ -181,11 +180,10 @@
       width 176px !important
     +above($breakpoints.xxl)
       width 173px !important
-      margin-left 10px
+      margin-left 38px
   &__card-6-wrapper
     width 260px !important
     height: auto
-    border-radius: 25px
     +above($breakpoints.sm)
       width 200px !important
     +above($breakpoints.md)
@@ -408,7 +406,7 @@
   +above($breakpoints.md)
     margin-left 100px
   +above($breakpoints.xxl)
-    margin-left 173px
+    margin-left 192px
 
 .title-margin-left
   +above($breakpoints.sm)
